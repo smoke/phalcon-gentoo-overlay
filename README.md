@@ -38,8 +38,8 @@ TODO - write instructions
 
 ### Emerge the package
 
-You might need to add dev-php/phalcon in /etc/portage/package.accept_keywords
-as the ebuilds are may still be keyworded.
+You may need to add dev-php/phalcon in /etc/portage/package.accept_keywords
+as the ebuilds may still be keyworded.
 ```bash
 echo "dev-php/phalcon" >> /etc/portage/package.accept_keywords
 ```
