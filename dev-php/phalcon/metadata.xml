@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>rkirilow@gmail.com</email>
+    <name>Radoslav Kirilov</name>
+  </maintainer>
+  <use>
+    <flag name="json">Build with PHP json extension</flag>
+    <flag name="pdo">Require PHP pdo extension</flag>
+    <flag name="mysqli">Require PHP pdo mysqli extension</flag>
+    <flag name="postgres">Require PHP pdo postgres extension</flag>
+    <flag name="sqlite">Require PHP pdo sqlite extension</flag>
+  </use>
+</pkgmetadata>
