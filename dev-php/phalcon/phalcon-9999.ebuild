@@ -5,7 +5,7 @@
 EAPI=6
 PHP_EXT_NAME="phalcon"
 PHP_EXT_INI="yes"
-USE_PHP="php7-1 php7-0 php5-6 php5-5"
+USE_PHP="php7-3 php7-2 php7-1 php7-0 php5-6"
 
 S="${WORKDIR}/cphalcon-${PV}"
 PHP_EXT_S="${S}/ext"
