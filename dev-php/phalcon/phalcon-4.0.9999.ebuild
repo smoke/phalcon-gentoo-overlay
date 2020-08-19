@@ -66,7 +66,10 @@ for target in ${USE_PHP}; do
 done
 
 DEPEND="${PHPUSEDEPEND}"
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${DEPEND}
+	dev-php/php-psr
+"
 
 if [[ "${MY_PHALCON_IS_RELEASED_VERSION}" == false ]]; then
 	# TODO: Implement and depend on dev-php/zephir
